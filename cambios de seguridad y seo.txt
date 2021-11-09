@@ -1,0 +1,22 @@
+-le borre los archivos comprimidos que estaban que ya estaban descomprimidos 
+(estaba el mismo archivo comprimido y descomprimido)
+-no cambie los titulos porque una parte de las correcciones anteriores era ponerlo claramente, 
+ni achique formato de imagenes ni videos porque todos los url que use son online
+-le puse una etiqueta de titulo al html "pagina principal"
+-le puse una etiqueta de titulo al html "imagenes"
+-le puse una etiqueta de titulo al html "contacto"
+-le puse una etiqueta de titulo al html "descripcion"
+-le puse una etiqueta de titulo al html "formulario"
+-le puse una etiqueta de titulo al html "tabla"
+-corregi unos errores de codigo que venia arrastrando (etiqueta de cierre article2 que no tenia apertura) 
+-borre un </a> que estaba de mas
+-borre los comentarios de la estructura html
+-le puse una etiqueta de descripcion al html "pagina principal"
+-le puse una etiqueta de descripcion al html "imagenes"
+-le puse una etiqueta de descripcion al html "contacto"
+-le puse una etiqueta de descripcion al html "descripcion"
+-le puse una etiqueta de descripcion al html "formulario"
+-le puse una etiqueta de descripcion al html "tabla" 
+-en cuanto al formulario todas las contraseñas y numeros de telefonos se muestran ocultos 
+(eso ya habia quedado de un proyecto anterior pero ayuda a la seguridad de los datos 
+por si ingresas desde un lugar publico )

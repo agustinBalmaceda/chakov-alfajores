@@ -1,0 +1,165 @@
+header { width: 100%;
+       height: 100%;    
+}
+
+.fondoCrema {background:pink;}
+
+.fondoGradiante {background-image: radial-gradient(rgb(212, 81, 103) 20%, pink);
+margin: 2vh;}
+
+header {text-transform: uppercase;}
+
+.yaldeviLetraGoogle {font-family: 'Yaldevi', sans-serif;}
+
+.osvaldGoogleFonts {font-family: 'Oswald', sans-serif;}
+
+.cursiva { font-style: italic;}
+
+.negrita { font-weight: bold;}
+
+/*tamaño de texto*/
+ .textoGrande { font-size: 40px;}
+
+ .textoRelativo {font-size: 150%;} 
+
+ /*50% del valor predeterminado que es 16px*/
+ .textoMasGrande {font-size: 80px;}
+
+ /*tipos de lettras*/
+ .impact { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+ /*alineamiento de texto*/
+ .centrar {text-align: center;}
+
+ .justificado { text-align: justify;}
+
+ .derecha { text-align: right;}
+
+ .fondo {background-image: linear-gradient(60deg, pink 20% , rgb(202, 19, 19))  }
+
+ .columnaIzquierda {border-style: solid; background-color: powderblue; padding: 15px; text-align: left;width: 30%;}
+
+    /*parua diseñar se recomienda la medida vh en ancho y los porcenajes en alto
+    /*mayuscula y minusculas*/
+
+    .mayuscula {text-transform: uppercase;}
+
+    .minuscula {text-transform: capitalize;}
+
+    .interlineado { line-height: 2fr;}
+
+    .sinSubrayado {text-decoration: none;}
+
+     /*estilp de listas*/
+    .tipoDeLista {list-style-type: lower-alpha;}
+
+    .fondoHeader { background-image: url(https://scontent.feze11-1.fna.fbcdn.net/v/t1.6435-9/195533649_2954319184838187_2529177540963655244_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=6e5ad9&_nc_ohc=BJun5RwTPTIAX8GTGf3&_nc_ht=scontent.feze11-1.fna&oh=4a50893d7d8b0b23798b73cf2f28455c&oe=6180658F);
+background-size: 100%;
+background-repeat:space;}
+
+.margenTabla {margin: auto}
+
+.imagenDePrecios {display: inline-block; width: 40%; height: 50%;}
+
+.inLineBlock {display: inline-block; width: 40%; height: 50%;}
+
+.padreFlex {display: flex;
+       flex-flow: nowrap;}
+
+ .margenSectionH1{ margin: 700px 5px;}
+
+ .footerMargenTabla{ margin-top:5cm ;}
+
+ .footerMargenContacto{ margin-top:13cm ;}
+
+ .bordeDeTexto {border-style: solid; margin: 0.2cm;}
+
+ .margenTextoImagenPrincipal {margin: 2cm 0cm 12cm 0cm;}
+
+ .margenFormulario{margin-top: 2cm;}
+
+ .margenDescripcion {margin: 2cm 0cm;}
+
+ /*css menu de navegacion*/
+
+ .menuCSS3 ul {
+       display: flex;
+       padding: 0;
+       margin: 2mm;
+       list-style: none;
+}
+.menuCSS3 a {
+       display: block;
+       padding: 1vh;
+       background-color: #F9B53C;
+       text-decoration: none;
+       color: #191C26;
+}
+.menuCSS3 a:hover {
+       background-color: #CC673B;
+}
+.menuCSS3 ul li ul {
+       display: none;
+       position: absolute;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+       display: block;
+}
+.scroll {
+       width: 300px;
+       position: fixed;
+       top: 0cm;
+       left: 0cm;
+}
+section{ height: 90vh;
+margin: 5px;}
+
+.gridArea { display: grid; margin-bottom: 20cm;
+grid-template-areas: 
+"intro intro intro"
+"menu precio texto"
+"menu precio texto"
+"menu precio texto"
+"menu video texto"
+"menu video texto";}
+
+#texto { grid-area: texto; 
+height: 30fr}
+
+#intro {grid-area: intro;
+height: 100%}
+
+#precio {grid-area: precio;
+  height: 30fr}
+
+#video {grid-area: video;
+  height: 30fr}
+
+#menu {grid-area: menu;
+  height: 30fr}
+
+
+       /*tablet*/
+       @media (min-width:600px){
+      .fondoCrema {background-color:pink ;}
+       .textoGrande {font-size: 020px;}      
+       }
+       @media (max-width:1090px){.fondoCrema { background-color:rgb(255, 255, 177) ;}
+       .textoGrande {font-size: 020px;}      }
+
+       /*celular*/
+       @media (max-width:599px){
+              .fondoCrema{background-color: lawngreen;}
+              .textoMasGrande{font-style: italic;}
+       }
+        
+       /*animaciones*/
+      .trans {   transition: width 100mm;}
+
+       .trans:hover { width:200%; height:100%; border:solid black;}
+
+       .transImagenes {transition: width 10mm;} 
+
+       .transImagenes:hover{ width:40%; height:40%; border:solid black}
+
+       .transmaps {transition: width 50mm;}
