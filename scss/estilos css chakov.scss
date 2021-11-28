@@ -1,190 +1,262 @@
-header { width: 100%;
-       height: 100%;    
-}
+@charset "UTF-8";
+header {
+  width: 100%;
+  height: 100%; }
 
-.fondoCrema {background:pink;}
+.fondoCrema {
+  background: pink; }
 
-.fondoGradiante {background-image: radial-gradient(rgb(212, 81, 103) 20%, pink);
-margin: 2vh;}
+.fondoGradiante {
+  background-image: radial-gradient(#d45167 20%, pink);
+  margin: 2vh; }
 
-header {text-transform: uppercase;}
+header {
+  text-transform: uppercase; }
 
-.yaldeviLetraGoogle {font-family: 'Yaldevi', sans-serif;}
+.yaldeviLetraGoogle {
+  font-family: 'Yaldevi', sans-serif; }
 
-.osvaldGoogleFonts {font-family: 'Oswald', sans-serif;}
+.osvaldGoogleFonts {
+  font-family: 'Oswald', sans-serif; }
 
-.cursiva { font-style: italic;}
+.cursiva {
+  font-style: italic; }
 
-.negrita { font-weight: bold;}
+.negrita {
+  font-weight: bold; }
 
 /*tamaño de texto*/
- .textoGrande { font-size: 40px;}
+.textoGrande {
+  font-size: 40px; }
 
- .textoRelativo {font-size: 150%;} 
+.textoRelativo {
+  font-size: 150%; }
 
- /*50% del valor predeterminado que es 16px*/
- .textoMasGrande {font-size: 80px;}
+/*50% del valor predeterminado que es 16px*/
+.textoMasGrande {
+  font-size: 80px; }
 
- /*tipos de lettras*/
- .impact { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+/*tipos de lettras*/
+.impact {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
- /*alineamiento de texto*/
- .centrar {text-align: center;}
+/*alineamiento de texto*/
+.centrar {
+  text-align: center; }
 
- .justificado { text-align: justify;}
+.justificado {
+  text-align: justify; }
 
- .derecha { text-align: right;}
+.derecha {
+  text-align: right; }
 
- .fondo {background-image: linear-gradient(60deg, pink 20% , rgb(202, 19, 19))  }
+.fondo {
+  background-image: linear-gradient(60deg, pink 20%, #ca1313); }
 
- .columnaIzquierda {border-style: solid; background-color: powderblue; padding: 15px; text-align: left;width: 30%;}
+.columnaIzquierda {
+  border-style: solid;
+  background-color: powderblue;
+  padding: 5vh;
+  text-align: center;
+  width: 90%;
+  margin-left: 4%; }
 
-    /*parua diseñar se recomienda la medida vh en ancho y los porcenajes en alto
+/*parua diseñar se recomienda la medida vh en ancho y los porcenajes en alto
     /*mayuscula y minusculas*/
+.mayuscula {
+  text-transform: uppercase; }
 
-    .mayuscula {text-transform: uppercase;}
+.minuscula {
+  text-transform: capitalize; }
 
-    .minuscula {text-transform: capitalize;}
+.interlineado {
+  line-height: 2fr; }
 
-    .interlineado { line-height: 2fr;}
+.sinSubrayado {
+  text-decoration: none; }
 
-    .sinSubrayado {text-decoration: none;}
+/*estilp de listas*/
+.tipoDeLista {
+  list-style-type: lower-alpha; }
 
-     /*estilp de listas*/
-    .tipoDeLista {list-style-type: lower-alpha;}
+.fondoHeader {
+  background-image: url(https://scontent.feze11-1.fna.fbcdn.net/v/t1.6435-9/195533649_2954319184838187_2529177540963655244_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=6e5ad9&_nc_ohc=BJun5RwTPTIAX8GTGf3&_nc_ht=scontent.feze11-1.fna&oh=4a50893d7d8b0b23798b73cf2f28455c&oe=6180658F);
+  background-size: 100%;
+  background-repeat: space; }
 
-    .fondoHeader { background-image: url(https://scontent.feze11-1.fna.fbcdn.net/v/t1.6435-9/195533649_2954319184838187_2529177540963655244_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=6e5ad9&_nc_ohc=BJun5RwTPTIAX8GTGf3&_nc_ht=scontent.feze11-1.fna&oh=4a50893d7d8b0b23798b73cf2f28455c&oe=6180658F);
-background-size: 100%;
-background-repeat:space;}
+.margenTabla {
+  margin: auto; }
 
-.margenTabla {margin: auto}
+.imagenDePrecios {
+  width: 40%;
+  height: 50%;
+margin: 5fr; }
 
-.imagenDePrecios {display: inline-block; width: 40%; height: 50%;}
+.inLineBlock {
+  display: inline-block;
+  width: 40%;
+  height: 50%; }
 
-.inLineBlock {display: inline-block; width: 40%; height: 50%;}
+.padreFlex {
+  display: flex;
+  flex-flow: nowrap; }
 
-.padreFlex {display: flex;
-       flex-flow: nowrap;}
+.margenSectionH1 {
+  margin: 700px 5px; }
 
- .margenSectionH1{ margin: 700px 5px;}
+.footerMargenTabla {
+  margin-top: 5cm; }
 
- .footerMargenTabla{ margin-top:5cm ;}
+.footerMargenContacto {
+  margin-top: 13cm; }
 
- .footerMargenContacto{ margin-top:13cm ;}
+.bordeDeTexto {
+  border-style: solid;
+  margin: 0.2cm; }
 
- .bordeDeTexto {border-style: solid; margin: 0.2cm;}
+.margenTextoImagenPrincipal {
+  margin: 2cm 0cm 5cm 0cm; }
 
- .margenTextoImagenPrincipal {margin: 2cm 0cm 5cm 0cm;}
+.margenFormulario {
+  margin-top: 2cm; }
 
- .margenFormulario{margin-top: 2cm;}
+.margenDescripcion {
+  margin: 2cm 0cm; }
 
- .margenDescripcion {margin: 2cm 0cm;}
+/*css menu de navegacion*/
+.menuCSS3 ul {
+  display: flex;
+  padding: 0;
+  margin: 2mm;
+  list-style: none; }
 
- /*css menu de navegacion*/
-
- .menuCSS3 ul {
-       display: flex;
-       padding: 0;
-       margin: 2mm;
-       list-style: none;
-}
 .menuCSS3 a {
-       display: block;
-       padding: 1vh;
-       background-color: #F9B53C;
-       text-decoration: none;
-       color: #191C26;
-}
+  display: block;
+  padding: 1vh;
+  background-color: #F9B53C;
+  text-decoration: none;
+  color: #191C26; }
+
 .menuCSS3 a:hover {
-       background-color: #CC673B;
-}
+  background-color: #CC673B; }
+
 .menuCSS3 ul li ul {
-       display: none;
-       position: absolute;
-}
+  display: none;
+  position: absolute; }
+
 .menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
-       display: block;
-}
+  display: block; }
+
 .scroll {
-       width: 300px;
-       position: fixed;
-       top: 0cm;
-       left: 0cm;
-}
-section{ height: 90vh;
-margin: 5px;}
+  width: 300px;
+  position: fixed;
+  top: 0cm;
+  left: 0cm; }
 
-.gridArea { display: grid; margin-bottom: 20cm;
-grid-template-areas: 
-"intro intro intro"
-"menu precio texto"
-"menu precio texto"
-"menu precio texto"
-"menu video texto"
-"menu video texto";}
+section {
+  height: 90vh;
+  margin: 5px; }
 
-#texto { grid-area: texto; 
-height: 30fr}
+.gridArea {
+  display: grid;
+  margin: 5fr;
+  margin-bottom: 20cm;
+  grid-template-areas: "intro intro intro"
+ "menu precio  texto"
+ "menu precio  texto"
+ "menu precio  texto"
+ "video video video"; }
 
-#intro {grid-area: intro;
-height: 100%}
+#texto {
+  grid-area: texto;
+  height: 30fr;}
 
-#precio {grid-area: precio;
-  height: 30fr}
+#intro {
+  grid-area: intro;
+  height: 100%; }
 
-#video {grid-area: video;
-  height: 30fr}
+#precio {
+  grid-area: precio;
+  height: 10fr;}
 
-#menu {grid-area: menu;
-  height: 30fr}
+#video {
+  grid-area: video;
+  height:100%;
+  margin: 4%;
+text-align: center; }
 
+#menu {
+  grid-area: menu;
+  height: 30fr; }
 
-       /*tablet*/
-       @media (min-width:600px){
-      .fondoCrema {background-color:pink ;}
-       .textoGrande {font-size: 020px;}      
-       }
-       @media (max-width:1090px){.fondoCrema { background-color:rgb(255, 255, 177) ;}
-       .textoGrande {font-size: 020px;}      }
+/*tablet*/
+@media (min-width: 600px) {
+  .fondoCrema {
+    background-color: pink; }
+  .textoGrande {
+    font-size: 020px; } }
 
-       /*celular*/
-       @media (max-width:599px){
-              .fondoCrema{background-color: lawngreen;}
-              .textoMasGrande{font-style: italic;}
-       }
-        
-       /*animaciones*/
-      .trans {   transition: width 100mm;}
+@media (max-width: 1090px) {
+  .fondoCrema {
+    background-color: #ffffb1; }
+  .textoGrande {
+    font-size: 020px; } }
 
-       .trans:hover { width:200%; height:100%; border:solid black;}
+/*celular*/
+@media (max-width: 599px) {
+  .fondoCrema {
+    background-color: lawngreen; }
+  .textoMasGrande {
+    font-style: italic; } }
 
-       .transImagenes {transition: width 10mm;} 
+/*animaciones*/
+.trans {
+  transition: width 100mm; }
 
-       .transImagenes:hover{ width:40%; height:40%; border:solid black}
+.trans:hover {
+  width: 200%;
+  height: 100%;
+  border: solid black; }
 
-       .transmaps {transition: width 50mm;}
+.transImagenes {
+  transition: width 10mm; }
 
-       /* CUSTOMIZE THE CAROUSEL
+.transImagenes:hover {
+  width: 40%;
+  height: 40%;
+  border: solid black; }
+
+.transmaps {
+  transition: width 50mm; }
+
+  body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
   /* Carousel base class */
   .carousel {
-       margin-bottom: 4rem;
-     }
-     /* Since positioning the image, we need to help out the caption */
-     .carousel-caption {
-       bottom: 3rem;
-       z-index: 10;
-     }
-     
-     /* Declare heights because of positioning of img element */
-     .carousel-item {
-       height: 32rem;
-     }
-     .carousel-item > img {
-       position: absolute;
-       top: 0;
-       left: 0;
-       min-width: 100%;
-       height: 32rem;
-     }
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
