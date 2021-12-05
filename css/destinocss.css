@@ -160,7 +160,7 @@ section {
 .gridArea {
   display: grid;
   margin: 5fr;
-  margin-bottom: 20cm;
+  margin-bottom: 12cm;
   grid-template-areas: "intro intro intro"
  "menu precio  texto"
  "menu precio  texto"
@@ -196,7 +196,14 @@ text-align: center; }
   .textoGrande {
     font-size: 020px; } }
 
-@media (max-width: 1090px) {
+@media (max-width: 1090px) {    .gridArea {
+  display: grid;
+  position: absolute;     
+  grid-template-areas: "intro"
+ "menu "
+ "precio"
+ "texto"
+ "video";} 
   .fondoCrema {
     background-color: #ffffb1; }
   .textoGrande {
@@ -204,10 +211,51 @@ text-align: center; }
 
 /*celular*/
 @media (max-width: 599px) {
+  .posicionFooter {position: fixed;
+    bottom: 50cm;
+    width: 100%;
+    height: 40px;}
   .fondoCrema {
     background-color: lawngreen; }
   .textoMasGrande {
-    font-style: italic; } }
+    font-style: italic; }
+    .gridArea {
+      display: grid;
+      position: absolute;     
+      grid-template-areas: "intro"
+     "menu "
+     "precio"
+     "texto"
+     "video";} 
+      /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    top: 1cm;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: fixed;
+    top: 20cm;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+    
 
 /*animaciones*/
 .trans {
