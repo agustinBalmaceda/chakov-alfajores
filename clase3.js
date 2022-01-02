@@ -81,6 +81,5 @@ const pers1 = new Usuario (nombre , apellido , edad,
     email, direccion, telefono);
 console.log (pers1)
 
+localStorage.setItem("Usuario", JSON.stringify(pers1))
 
-
- 

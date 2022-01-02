@@ -51,8 +51,7 @@
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <button class="btn btn-outline-success" id="registrarse"><a href="login.html">registrarse</a></button>
                 </form>
               </div>
             </div>
@@ -65,7 +64,7 @@
        <input type="text" name="domicilio" placeholder="domicilio"><br>
        <input type="text" name="apellido" placeholder="apellido"><br>
        <input type="email" name="email" placeholder="email"><br>
-       <input type="password" name="password" placeholder="contraseña"><br>
+       <input type="password" name="edad" placeholder="edad"><br>
        <input type="password" name="telefono" placeholder="telefono"><br>
        <p class="impact textoRelativo">metodo de pago</p>
        <div class="impact">efectivo</div>
@@ -76,11 +75,11 @@
        <input type="radio" name="metodo de pago" value="transferencia"><br>
        <textarea name="comentario" cols="40" rows="15" placeholder="descripcion"></textarea><br>
        
-       <p class="lista-productos"></p>
-        <div id="productos"></div>
-        <div class="lista-productos"></div>
+    
        <ul id="productos-lista">
+         
       </ul>
+      <button id="boton-de-compra">boton de compra</button>
 
        <div class="impact">recibir mensaje de verificacion</div> 
         <input type="checkbox" name="acepta" value="1"><br>
@@ -93,8 +92,7 @@
         </select><br>
         <br>
        
-        <input type="reset" value="me arrepenti de la  compra">
-       <input type="submit" value="hacer compra">
+        <button id=botonDeArrepentimiento>me arrepenti de la  compra</button>
      
       </div>
 </article>
