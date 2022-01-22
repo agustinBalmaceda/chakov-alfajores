@@ -226,7 +226,9 @@ text-align: center; }
      "menu "
      "precio"
      "texto"
-     "video";}}
+     "video";}
+     .textoMasGrande {
+      font-size: 35px; }  }
      /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
