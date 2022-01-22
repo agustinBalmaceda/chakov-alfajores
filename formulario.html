@@ -60,25 +60,23 @@
 
 <article class="margenFormulario">
        <form action="">
-       <input type="text" name="nombre" placeholder="nombre"> <br>
+       <!-- <input type="text" name="nombre" placeholder="nombre"> <br>
        <input type="text" name="domicilio" placeholder="domicilio"><br>
        <input type="text" name="apellido" placeholder="apellido"><br>
        <input type="email" name="email" placeholder="email"><br>
        <input type="password" name="edad" placeholder="edad"><br>
-       <input type="password" name="telefono" placeholder="telefono"><br>
+       <input type="password" name="telefono" placeholder="telefono"><br> -->
        <p class="impact textoRelativo">metodo de pago</p>
-       <div class="impact">efectivo</div>
-       <input type="radio" name="metodo de pago" value="efectivo"><br>
-       <div class="impact">mercado pago</div>
-       <input type="radio" name="metodo de pago" value="mercado pago"><br>
-       <div class="impact">transferencia</div>
-       <input type="radio" name="metodo de pago" value="transferencia"><br>
+       <button id="efectivo" class="impact">efectivo</button>
+       <button id="mercadoPago" class="impact">mercado pago</button>
+       <button id="transferencia" class="impact">transferencia</button><br>
        <textarea name="comentario" cols="40" rows="15" placeholder="descripcion"></textarea><br>
        
     
        <ul id="productos-lista">
          
       </ul>
+      <div id="productos"></div>
       <button id="boton-de-compra">boton de compra</button>
 
        <div class="impact">recibir mensaje de verificacion</div> 
@@ -107,7 +105,9 @@
   </div>
 </footer>
       <script type="module" src="index.js"></script>
-      <script src="clase3.js"></script>
+     <!-- <script src="clase3.js"></script>  -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="nuevoUsuario.js"></script>
 
 </body>
 

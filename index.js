@@ -34,6 +34,25 @@ itemList.onmouseleave = () => {
 
 }
 
+// jquery
+// for( const producto of productos) {
+// $("#productos").append(`<div id="${producto.id}">${producto.nombre}</div>`)
+    
+//     $(`#${producto.id}`).on("click", function(){
+//         alert(`click en ${producto.nombre}`)
+//     })
+// }
+
+// $("body").prepend(`<input id="input" type="text"/>`)
+// $("body").prepend(`<button id="button">boton</button>`)
+// $("#input").change((event) => {
+//     console.log(event.target.value)
+// })
+//fin de jquery
+
+
+
+
 const botonComprar = document.getElementById("boton-de-compra")
 botonComprar.addEventListener("click", function(){
     alert (`compraste ${ JSON.stringify( carrito.findAllItems())}`)
