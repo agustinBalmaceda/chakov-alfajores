@@ -68,15 +68,16 @@ $("#efectivo").click(function(){
 
 $(function(){
     $("#mercadoPago").click(function(){
+       
         alert ("seguro deseas pagar en mercado pago?");
-        console.log ("paga en efectivo");
+        console.log ("paga con mercado pago");
         })
     })
 
     $(function(){
         $("#transferencia").click(function(){
             alert ("seguro deseas pagar con transferencia bancaria?");
-            console.log ("paga en efectivo");
+            console.log ("paga en transferencia bancaria");
             })
         })
 

@@ -10,7 +10,8 @@
 
 
 
-        this.lista.push ( { item, cantidad:1} )
+        this.lista.push ( { item:item,
+             cantidad: 1} )
         localStorage.setItem("carrito", JSON.stringify(this.lista))
 }
     findOneByIdItem ( itemId ) {

@@ -1,6 +1,5 @@
 import { productos } from "./data.js";
 import { Carrito } from "./carrito.js"
-import { renderList } from "./utils.js";
 
 const carrito = new Carrito ();
 
@@ -17,22 +16,26 @@ const listaContainer = document.getElementById( "productos-lista" )
      </span>`
      listaContainer.appendChild( itemList )
 itemList.addEventListener("click", function(){
-    console.log( item.nombre)
-    carrito.createItem( item )
+    console.log( item.nombre )
+    carrito.createItem( item.nombre ) 
+    alert ( "agregaste al carrito: " + item.nombre )
+    alert (`tu carrito tiene ${ JSON.stringify( carrito.findAllItems())}`)
 }
+
 )
 
     //eventos del clic
 itemList.onmouseover = () => {
-
-    itemList.setAttribute("style", "background-color: skyblue")
+    itemList.setAttribute("style", "font-size: 30px" )
 }
+
 
 itemList.onmouseleave = () => {
-    itemList.setAttribute("style", "background-color:fondoCrema" )
-}
+    itemList.setAttribute("style", "font-size: 17px" )
 
-}
+}}
+
+
 
 // jquery
 // for( const producto of productos) {
@@ -50,6 +53,11 @@ itemList.onmouseleave = () => {
 // })
 //fin de jquery
 
+const verCarrito = document.getElementById("verCarrito")
+verCarrito.addEventListener("click", function(){
+    alert (`tu carrito tiene ${ JSON.stringify( carrito.findAllItems())}`)
+
+})
 
 
 
@@ -58,12 +66,29 @@ botonComprar.addEventListener("click", function(){
     alert (`compraste ${ JSON.stringify( carrito.findAllItems())}`)
 })
 
+
+
+
 const botonDeArrepentimiento = document.getElementById("botonDeArrepentimiento")
 botonDeArrepentimiento.addEventListener("click", function(){
-    alert (`devolviste ${ JSON.stringify( carrito.findAllItems())}`)
-    throw new Error("dar de baja la compra");
+  //  carrito.deleteItem ( item.nombre ) 
+ //localStorage.removeItem( item.nombre );
 
+    alert (`DEVOLVISTE ${ JSON.stringify( carrito.findAllItems())}`)
+    throw new Error("dar de baja la compra")
+
+    
 })
+
+// const eliminarCarrito = document.getElementById("botonDeArrepentimiento")
+// eliminarCarrito.addEventListener("click", function(){
+// carrito.deleteItem ( item.nombre ) 
+// alert ("carrito vacio")    
+// })
+
+
+
+
 
 
 
